@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@rollup/plugin-inject": "^5.0.3",
+        "autoprefixer": "^10.4.15",
+        "axios": "^1.1.2",
+        "foundation-sites": "^6.8.1",
+        "jquery": "^3.7.1",
+        "laravel-vite-plugin": "^0.8.0",
+        "motion-ui": "^2.0.5",
+        "sass": "^1.66.1",
+        "vite": "^4.0.0"
+    }
+}
