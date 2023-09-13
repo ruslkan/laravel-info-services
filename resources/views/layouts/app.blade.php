@@ -40,7 +40,14 @@
 
           @yield('content')
 
-          <div class="page__header"></div>
+          <div class="page__header">
+            <!-- ======= Icon Hamburger ======= -->
+            <svg class="icon-hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 22">
+              <line x1="1" y1="1" x2="23.0821" y2="0.999999" stroke-linecap="round"/>
+              <line x1="1" y1="11" x2="39.1368" y2="11" stroke-linecap="round"/>
+              <line x1="1" y1="21" x2="31.1094" y2="21" stroke-linecap="round"/>
+            </svg><!-- ======= End Icon Hamburger ======= -->
+          </div>
 
         </div>
 

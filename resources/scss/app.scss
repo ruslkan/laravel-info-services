@@ -1,6 +1,9 @@
 // Settings
 @import "settings";
 
+// Variables
+@import "variables";
+
 // Foundation
 @import "foundation/scss/foundation";
 
@@ -69,7 +72,7 @@
 
 
 body {
-  background: url(../images/bg/bg-image.jpg) center center no-repeat;
+  // background: url(../images/bg/bg-image.jpg) center center no-repeat;
 }
 
 .test {
@@ -84,3 +87,23 @@ body {
       text-align: center!important;
     }
 }
+
+//* --------------
+//  icon-hamburger
+//  -------------- */
+.icon-hamburger {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 41px;
+    height: 22px;
+    cursor: pointer;
+    stroke: $brand-color;
+    stroke-width: 2px;
+
+    &:hover,
+    &:focus {
+      stroke: $brand-color-lighter;
+      filter: drop-shadow(0.15rem 0.15rem 0.6rem $brand-color);
+    }
+  }
