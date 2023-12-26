@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1 class="test">Василий Петрович Кутько Василий Петрович Кутько</h1>
+    <h1 class="test">Василий Калистратович Кутько Василий Калистратович Кутько</h1>
     <span class="test__first">Сеня Волгин</span>
 
 @endsection

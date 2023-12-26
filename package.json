@@ -7,6 +7,7 @@
     },
     "devDependencies": {
         "@rollup/plugin-inject": "^5.0.3",
+        "@types/jquery": "^3.5.29",
         "autoprefixer": "^10.4.15",
         "axios": "^1.1.2",
         "foundation-sites": "^6.8.1",

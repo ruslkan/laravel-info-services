@@ -1,13 +1,28 @@
-import $ from 'jquery';
-window.$ = $;
+import jquery from 'jquery';
+window.$ = jquery;
 
 import axios from 'axios';
 window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-import 'foundation';
-$(document).foundation();
+import '../scss/app.scss';
+//import * as foundation from 'foundation-sites';
+
+import 'foundation-sites';
+
+// initialize the page
+window.addEventListener('load', (event) => {
+    initPage();
+});
+
+window.addEventListener('turbo:render', (event) => {
+    initPage();
+});
+function initPage() {
+    $(document).foundation();
+    console.log('foundation ready');
+}
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

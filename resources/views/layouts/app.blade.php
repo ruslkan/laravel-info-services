@@ -7,13 +7,6 @@
         <meta content="Free HTML Templates" name="keywords">
         <meta content="Free HTML Templates" name="description">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-        <!-- Styles -->
-        @vite(['resources/scss/app.scss'])
-
     </head>
     <body class="page">
 
@@ -54,6 +47,8 @@
       </div><!-- ======= End Page Off-canvas wrapp ======= -->
 
       <!-- Scripts -->
-      @vite(['resources/js/app.js'])
+      @vite('resources/js/app.js')
+
     </body>
+
 </html>
